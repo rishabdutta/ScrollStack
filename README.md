@@ -3,10 +3,10 @@ This project demonstrates how to resize/update UIStackView elements (horizontall
 
 Methods like `layoutIfNeeded()` doesn't work. 
 
-As per Apple [docs](https://developer.apple.com/documentation/uikit/uistackview) the UIStackView subviews' 
+As per Apple [docs](https://developer.apple.com/documentation/uikit/uistackview) the UIStackView subview's 
 layout are updated when one of those subview are either added, removed or hidden.
 
-So in order to update the layout automatically we need to perform the following three line
+So in order to update the layout automatically we need to perform the following three lines
 
 ```swift
 let firstView = stackView.arrangedSubviews[0]
